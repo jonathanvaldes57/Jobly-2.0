@@ -18,10 +18,10 @@ module.exports = {
     proxy: {
       '/**': {
         target: 'http://localhost:3000/',
-        changeOrigin: true,
-        secure: false,
-        hot: true,
-        open: true,
+        // changeOrigin: true,
+        // secure: false,
+        // hot: true,
+        // open: true,
       },
     },
     historyApiFallback: true,
