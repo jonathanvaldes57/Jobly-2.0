@@ -10,7 +10,7 @@ export default (): JSX.Element => {
             <Navbar />
             <Routes>
                 <Route path="/Main" element={<Main />}/>
-                <Route path="/" element={<Login />}/>
+                <Route path="/login" element={<Login />}/>
             </Routes>
         </div>
     )
